@@ -356,7 +356,7 @@ public void userQueries(String[] argv) {
 	}
 }
 
-
+//cosine similarity.
 public static void main(String[] argv)
 { WebCrawler wc = new WebCrawler();
   wc.run(argv);
