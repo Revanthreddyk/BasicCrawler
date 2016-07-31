@@ -351,6 +351,7 @@ public void userQueries(String[] argv) {
 			System.out.println(input + " is in the dictionary.");
 			double tf = dic.get(input) * 1.0f / wordCount;
 			double idf = getIDF(input);
+//cosine similarity
 		}
 	}
 }
